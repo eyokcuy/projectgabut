@@ -2,12 +2,12 @@
 
 # ==================== GESTURE ZONES ====================
 # Y-axis thresholds (0.0 to 1.0, where 0 = top, 1 = bottom)
-GESTURE_UP_THRESHOLD = 0.40       # Jump gesture (hand in upper zone)
-GESTURE_DOWN_THRESHOLD = 0.60     # Roll/slide gesture (hand in lower zone)
+GESTURE_UP_THRESHOLD = 0.45       # Jump gesture (hand in upper zone)
+GESTURE_DOWN_THRESHOLD = 0.55     # Roll/slide gesture (hand in lower zone)
 
 # X-axis thresholds (0.0 to 1.0, where 0 = left, 1 = right)
-GESTURE_LEFT_THRESHOLD = 0.40     # Move left
-GESTURE_RIGHT_THRESHOLD = 0.60    # Move right
+GESTURE_LEFT_THRESHOLD = 0.45     # Move left
+GESTURE_RIGHT_THRESHOLD = 0.55    # Move right
 
 # ==================== INPUT SETTINGS ====================
 # Debounce/cooldown time in seconds

@@ -194,6 +194,8 @@ class _HandLandmarkerWrapper:
 
     def _process_tasks(self, rgb_frame):
         self._timestamp_ms += 33  # ~30 fps
+        # Ensure the array is C-contiguous (required by the C++ backend)
+        rgb_frame = rgb_frame if rgb_frame.flags['C_CONTIGUOUS'] else rgb_frame.copy()
         # Wrap the numpy array in a MediaPipe Image object
         mp_image = self._mp_image_cls(
             image_format=self._mp_srgb,
