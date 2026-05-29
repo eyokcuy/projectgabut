@@ -1,0 +1,49 @@
+"""
+QUICKSTART GUIDE - AI Webcam Game Controller
+
+🚀 FAST SETUP (5 minutes)
+
+1. INSTALL REQUIREMENTS:
+   pip install -r requirements.txt
+
+2. OPEN SUBWAY SURFERS:
+   - Play store, PC, emulator, or browser
+   - Keep it open and visible
+
+3. RUN THE CONTROLLER:
+   python main.py
+
+4. MAKE HAND GESTURES:
+   - Raise hand up → Jump
+   - Lower hand down → Roll
+   - Move hand left → Move Left
+   - Move hand right → Move Right
+
+5. KEYBOARD CONTROLS:
+   - SPACE = Toggle ON/OFF
+   - T = Show/hide hand landmarks
+   - Q = Quit
+
+⚙️ CUSTOMIZE:
+   Edit config/settings.py to adjust:
+   - GESTURE_UP_THRESHOLD (make jump easier/harder)
+   - GESTURE_DOWN_THRESHOLD (make roll easier/harder)
+   - DEBOUNCE_TIME (speed of response)
+   - FRAME_SCALE_PERCENT (performance)
+
+💡 TIPS:
+   - Good lighting is important
+   - Keep hand in frame
+   - Make clear, deliberate movements
+   - Sit 1-2 meters from camera
+
+🐛 TROUBLESHOOTING:
+   - No hand detected? → Check lighting
+   - Jittery? → Increase SMOOTHING_BUFFER_SIZE
+   - Slow? → Increase FRAME_SCALE_PERCENT
+   - Too sensitive? → Increase DEBOUNCE_TIME
+
+📖 FULL DOCS: See README.md for complete documentation
+
+Happy gaming! 🎮✋
+"""
